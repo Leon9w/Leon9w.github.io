@@ -1,0 +1,234 @@
+html{
+    font-size: 100px;
+}
+body{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: "苹方 常规";
+    color: #F2F2F2;
+    height:13.34rem;
+    background: #F2F2F2;
+    width:7.5rem;
+
+}
+input{
+    border:none;
+    margin:0;
+    padding:0;
+}
+.header{
+    padding-top: 0.01rem;
+    width:7.5rem;
+    height:2.95rem;
+    margin:0 auto;
+    background: #29A6DC;
+}
+.return{
+    width:0.39rem;
+    height: 0.39rem;
+    border:0.01rem solid #FAFAFA;
+    border-radius: 50%;
+    background: #FAFAFA;
+    float: left;
+    margin-top: 0.76rem;
+    margin-left: 0.26rem;
+    box-shadow: 0px 0px 1px 1px #076CBE;
+}
+.return .picturebox{
+    width:0.1rem;
+    height: 0.17rem;
+    margin: 0 auto;
+    margin-top: 0.11rem;
+}
+.return img{
+    display: block;
+    width: 100%;
+}
+.denglu{
+    width:1.5rem;
+    margin-top: 0.76rem;
+    float: left;
+    margin-left:2.32rem;
+    margin-bottom:0.3rem;
+}
+.logo{
+    width:1.82rem;
+    height: 1.16rem;
+    margin:0 auto;
+}
+.logo img{
+    width:100%;
+}
+/*名言名句*/
+.mingyan{
+    width:6.80rem;
+    height:0.90rem;
+    margin:0 auto;
+    margin-top: 1.44rem;
+    color: #0A196B;
+}
+.name{
+    margin-top:0.1rem;
+    float: right;
+}
+
+/*输入框*/
+.shurukuangbox{
+    width:6.17rem;
+    margin:0.8rem;
+    margin:0 auto;
+}
+.shurukuangbox .usename{
+    width:6.16rem;
+    height: 0.88rem;
+    margin:0 auto;
+    margin-top: 0.38rem;
+    border-radius: 0.44rem;
+    border:0.01rem solid #3A91FD;
+    background: #FFFFFF;
+}
+.shurukuangbox .password{
+    width:6.16rem;
+    height: 0.88rem;
+    margin:0 auto;
+    margin-top: 0.38rem;
+    border-radius: 0.44rem;
+    border:0.01rem solid #3A91FD;
+    background: #FFFFFF;
+}
+.shurukuangbox .tubiao{
+    width:0.44rem;
+    height:0.44rem;
+    border-radius: 50%;
+    margin-left:0.45rem;
+    margin-top: 0.21rem;
+    border:0.01rem solid #3ABFFD ;
+    float: left;
+}
+.shurukuangbox .tubiaobox{
+    width:0.25rem;
+    height: 0.25rem;
+    margin-left:0.12rem;
+    margin-top: 0.08rem;
+}
+.shurukuangbox img{
+    height:100%;
+    display: block;
+}
+.shurukuangbox .shuru-box{
+    width:4.6rem;
+    height: 0.86rem;
+    padding-left:0.3rem;
+    float: left;
+}
+.othersbox{
+    width:5.25rem;
+    height: 0.28rem;
+    margin:0 auto;
+    margin-top:0.35rem;
+}
+.othersbox .zhaohui{
+    float: left;
+    width:2rem;
+}
+.othersbox .zhaohui:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.othersbox .zhuce{
+    float: right;
+}
+.othersbox .zhuce:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.othersbox .picture{
+    width:0.25rem;
+    height: 0.25rem;
+    float: left;
+}
+.othersbox a{
+    text-decoration: none;
+    color: #666;
+    display: block;
+    line-height: 0.25rem;
+    font-size:;
+    float: left;
+    margin-left: 0.18rem;
+}
+
+/*登录按键*/
+.buttonbox{
+    width:5.48rem;
+    height: 0.7rem;
+    margin:0 auto;
+    margin-top:0.6rem;
+}
+.buttonbox input{
+    width:5.46rem;
+    height: 0.66rem;
+    border-radius: 0.33rem;
+    color: #FFFFFF;
+    background: #3ABFFD;
+}
+
+
+
+
+
+
+@media screen  and (min-width:319px){
+    html{
+        font-size:42.66px;
+    }
+    .denglu{
+        font-size: 16px;
+    }
+    .mingyan{
+        font-size: 10px;
+    }
+    .othersbox a{
+        font-size:10px;
+    }
+    .buttonbox input{
+        font-size:12px;
+    }
+
+}
+@media screen  and (min-width:374px){
+    html{
+        font-size:50px;
+    }
+    .denglu{
+        font-size: 18px;
+    }
+    .mingyan{
+        font-size: 12px;
+    }
+    .othersbox a{
+        font-size:12px;
+    }
+    .buttonbox input{
+        font-size:14px;
+    }
+}
+@media screen  and (min-width:413px){
+    html{
+        font-size:55.2px;
+    }
+    .denglu{
+        font-size: 20px;
+    }
+    .mingyan{
+        font-size:14px;
+    }
+    .othersbox a{
+        font-size:12px;
+    }
+    .buttonbox input{
+        font-size:16px;
+    }
+}
