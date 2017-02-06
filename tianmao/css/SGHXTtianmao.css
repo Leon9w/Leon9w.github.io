@@ -1,0 +1,453 @@
+
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+        float: left;
+        width: auto;
+        padding:0 4px;
+        box-sizing: border-box;
+    }
+
+    .col-xs-12 {
+        width: 100%;
+    }
+
+    .col-xs-11 {
+        width: 91.66666667%;
+    }
+
+    .col-xs-10 {
+        width: 83.33333333%;
+    }
+
+    .col-xs-9 {
+        width: 75%;
+    }
+
+    .col-xs-8 {
+        width: 66.66666667%;
+    }
+
+    .col-xs-7 {
+        width: 58.33333333%;
+    }
+
+    .col-xs-6 {
+        width: 50%;
+    }
+
+    .col-xs-5 {
+        width: 41.66666667%;
+    }
+
+    .col-xs-4 {
+        width: 33.33333333%;
+    }
+
+    .col-xs-3 {
+        width: 25%;
+    }
+
+    .col-xs-2 {
+        width:20%;
+    }
+
+    .col-xs-1 {
+        width: 8.33333333%;
+    }
+
+
+
+        /*顶部*/
+    .showbox {
+        width: 982px;
+        margin: 0 auto;
+        padding-top: 1px;
+        box-sizing: border-box;
+    }
+
+    .showbox:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    /*第一部分*/
+    .sousuokuangbox {
+        width: 412px;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+
+    #sousou {
+        width: 278px;
+        height: 36px;
+        padding: 0 5px;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    .hiddensou {
+        display: none;
+    }
+
+    /*导航*/
+    .showbox1 {
+        width: 982px;
+        margin: 0 auto;
+
+    }
+
+    /*商标盒*/
+    .logobox {
+        width: 982px;
+        margin: 0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        background: #fff;
+    }
+    .logobox:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .logoboxs {
+        width: 484px;
+        height: 436px;
+        float: right;
+    }
+
+    .logoboxs .rowbox {
+        width: 484px;
+        height: 108px;
+        border-bottom: 1px solid #F5F5F5;
+    }
+
+    .noborder {
+        border: none;
+    }
+
+    .rowbox .littlebox {
+        width: 121px;
+        height: 108px;
+        border-right: 1px solid #F5F5F5;
+        float: left;
+        padding-top: 25px;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    /*第四部分*/
+    .showbox .shubox{
+        width: 238px;
+        height: 477px;
+        float: left;
+        margin-right:10px;
+    }
+
+    /*第八部分*/
+    .itemshow .tu1{
+        width:100%;
+        height:230px;
+    }
+    .shangpinjieshao{
+        width:100%;
+        height:80px;
+        padding:0 5px;
+        padding-top:20px;
+        box-sizing: border-box;
+        color:#333;
+    }
+    .showbox .itemshow{
+        border:1px solid #F5F5F5;
+        box-sizing: border-box;
+    }
+    .showbox .itemshow:hover{
+        border:1px solid red;
+        box-sizing: border-box;
+        opacity: 0.7;
+    }
+    /*底部上*/
+    .show-box{
+        width:244px;
+        height:54px;
+        float: left;
+        margin-top: 50px;
+        display: flex;
+        justify-content:center;
+    }
+    .picturebox{
+        width:53px;
+        height: 53px;
+    }
+    /*底部下*/
+    .dibubottom{
+        width:100%;
+        height: 222px;
+        background: #000000;
+        border-bottom: 1px solid #47535E;
+    }
+    @media  screen and  (max-width: 1241px){
+        .rowbox .hidden2{
+            display: none;
+        }
+        .hidden3{
+            display: none;
+        }
+        .showbox .nomargin{
+            margin: 0;
+        }
+        .leitupian .leikuang3{
+            display: none;
+        }
+        .itemshow .tu1{
+            width:100%;
+            height:187px;
+        }
+        .shangpinjieshao{
+            width:100%;
+            height:86px;
+            padding:0 5px;
+            padding-top:20px;
+            box-sizing: border-box;
+            color:#333;
+        }
+    }
+
+
+@media screen and (min-width: 768px) {
+    .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+        float: left;
+        width:  auto;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .col-sm-11 {
+        width: 91.66666667%;
+    }
+
+    .col-sm-10 {
+        width: 83.33333333%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-8 {
+        width: 66.66666667%;
+    }
+
+    .col-sm-7 {
+        width: 58.33333333%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-5 {
+        width: 41.66666667%;
+    }
+
+    .col-sm-4 {
+        width: 33.33333333%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-2 {
+        width: 16.66666667%;
+    }
+
+    .col-sm-1 {
+        width: 8.33333333%;
+    }
+
+}
+@media  screen and  (min-width: 1000px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+        width:  auto;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+    .col-md-11 {
+        width: 91.66666667%;
+    }
+
+    .col-md-10 {
+        width: 83.33333333%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-8 {
+        width: 66.66666667%;
+    }
+
+    .col-md-7 {
+        width: 58.33333333%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-5 {
+        width: 41.66666667%;
+    }
+
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-2 {
+        width: 16.66666667%;
+    }
+
+    .col-md-1 {
+        width: 8.33333333%;
+    }
+
+
+}
+@media  screen and  (min-width: 1240px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        float: left;
+        width:  auto;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    .col-lg-11 {
+        width: 91.66666667%;
+    }
+
+    .col-lg-10 {
+        width: 83.33333333%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-8 {
+        width: 66.66666667%;
+    }
+
+    .col-lg-7 {
+        width: 58.33333333%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-5 {
+        width: 41.66666667%;
+    }
+
+    .col-lg-4 {
+        width: 33.33333333%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-2 {
+        width: 20%;
+    }
+
+    .col-lg-1 {
+        width: 8.33333333%;
+    }
+    /*顶部*/
+    .showbox{
+        width:1230px;
+        margin:0 auto;
+    }
+    /*第一部分*/
+    .sousuokuangbox{
+        width: 625px;
+        margin:0 auto;
+        margin-top:40px;
+
+    }
+    #sousou{
+        width:491px;
+        height: 36px;
+        float: left;
+    }
+    .hiddensou{
+        display: inline-block;
+    }
+
+    /*导航*/
+    .showbox1{
+        width:1230px;
+        margin:0 auto;
+    }
+    /*商标盒*/
+    .logobox{
+        width:1230px;
+        margin:0 auto;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        background: #fff;
+    }
+
+    .logoboxs{
+        width: 726px;
+        height: 436px;
+        float: right;
+    }
+    .logoboxs .rowbox{
+        width:732px;
+        height: 108px;
+        border-bottom: 1px solid #F5F5F5;
+    }
+
+    .rowbox .noborder{
+        border:none;
+    }
+/*第四部分*/
+    .showbox .shubox{
+        width: 238px;
+        height: 477px;
+        float: left;
+        margin-right:10px;
+    }
+    /*底部上*/
+    .show-box{
+        width:306px;
+        height:54px;
+        float: left;
+    }
+    .picturebox{
+        margin-left: 46px;
+    }
+    /*底部下*/
+    .dibubottom{
+        width:100%;
+        height: 197px;
+        background: #000000;
+        border-bottom: 1px solid #47535E;
+    }
+}
