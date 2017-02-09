@@ -1,0 +1,581 @@
+body{
+    background: #D9DADC;
+    margin:0;
+    padding:0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #fff;
+}
+input{
+    margin:0;
+    padding:0;
+    border:none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 225639 */
+    src: url('http://at.alicdn.com/t/font_fwv3nxn0ze5c23xr.eot');
+    src: url('http://at.alicdn.com/t/font_fwv3nxn0ze5c23xr.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_fwv3nxn0ze5c23xr.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_fwv3nxn0ze5c23xr.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_fwv3nxn0ze5c23xr.svg#iconfont') format('svg');
+}
+
+/*第一部分*/
+/*头部*/
+.banner{
+    width:1600px;
+    height:1000px;
+    margin:0 auto;
+    position: relative;
+    
+}
+
+.head{
+    position:absolute;
+    width:100%;
+    height: 238px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom,#333 0%,transparent 100%);
+    top:0;
+}
+.nav{
+    width:1200px;
+    padding-top:1px;
+    margin:0 auto;
+}
+.nav:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.logo{
+    width:49px;
+    height: 71px;
+    margin:0 30px;
+    margin-top:35px;
+    float: left;
+}
+.navbox{
+    width: 640px;
+    height: 60px;
+    margin-top: 42px;
+    float: left;
+}
+.navbox a{
+    display: inline-block;
+    height: 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s;
+}
+.navbox a:hover{
+    color: #aaa;
+}
+.navbox .xiegang{
+    font-size: 26px;
+    display: inline-block;
+    margin:0 16px;
+}
+.chinese{
+    height:24px;
+    font-size: 18px;
+}
+.english{
+    height: 26px;
+}
+.denglubox{
+    width:124px;
+    height:74px;
+    position: absolute;
+    right:210px;
+    top:60px;
+}
+.shuxian{
+    float: left;
+    margin: 4px 0;
+}
+.denglubox a{
+    display:block;
+    font-family: "iconfont";
+    float: left;
+    margin:4px 8px;
+    text-decoration: none;
+    color: #fff;
+}
+.denglubox a:hover{
+    color: #aaa;
+    transition: all 0.3s;
+}
+.denglubox .wenhaoright{
+    float: right;
+    margin-top: 20px;
+    margin-right:30px;
+}
+.bannerneirong{
+    width:1200px;
+    position: absolute;
+    left:200px;
+    top:340px;
+}
+.bannerneirong .zhongxintu{
+    width:269px;
+    height:480px;
+    margin:0 auto;
+}
+.dongyuanbox{
+    display: flex;
+    width:220px;
+    height:30px;
+    position: absolute;
+    bottom: 20px;
+    left:690px;
+}
+.dongyuanbox .dongyuan{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin:0 10px;
+    background: #a5a7aa;
+    transition: all 0.4s;
+}
+.dongyuanbox .dongyuan:hover{
+    background: #3F3F40;
+}
+
+/*第二部分*/
+.about-hotel{
+    width:1200px;
+    height: 740px;
+    margin:0 auto;
+    margin-top:90px;
+}
+.about-tittle{
+    width:150px;
+    height:40px;
+    margin-left:112px;
+}
+.about-tittle a{
+    display: block;
+    text-decoration: none;
+    color: #44443F;
+    font-size: 22px;
+}
+.about-tittle a:nth-child(2){
+    font-size: 12px;
+}
+.about-picture{
+    width:1200px;
+    height: 634px;
+    position: relative;
+    margin-top:10px;
+}
+.about-picture .picture1{
+    width:732px;
+    height:503px;
+    position: absolute;
+    top: 66px;
+    z-index:1;
+}
+.about-picture .picture2{
+    width:790px;
+    height:634px;
+    position: absolute;
+    left:76px;
+    z-index:4;
+}
+.about-picture .picture3{
+    width:735px;
+    height:501px;
+    position: absolute;
+    right:92px;
+    top:67px;
+    z-index:3;
+}
+.about-picture .picture4{
+    width:650px;
+    height:406px;
+    position: absolute;
+    right:0;
+    top:115px;
+    z-index:2;
+}
+.dongyuanbox1{
+    display: flex;
+    width:220px;
+    height:30px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.dongyuanbox1 .dongyuan1{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin:0 10px;
+    background: #a5a7aa;
+    transition: all 0.4s;
+}
+.dongyuanbox1 .dongyuan1:hover{
+    background: #3F3F40;
+}
+
+/*第三部分*/
+.resevation{
+    width:1600px;
+    height: 556px;
+    margin:0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+.resevationbox{
+    width:1200px;
+    height:556px;
+    margin:0 auto;
+}
+.res-picture1{
+    width: 241px;
+    height: 402px;
+    position: absolute;
+    top:50px;
+    z-index:3;
+}
+.rese-contentbox{
+    width:1000px;
+    height: 500px;
+    position: absolute;
+    top:50px;
+    left:0;
+    z-index: 2;
+    background: #E0E6EA;
+}
+.rese-picturebox{
+    width:800px;
+    height: 500px;
+    position: absolute;
+    z-index:5;
+    top:50px;
+    right:0;
+}
+.rese-wordbox{
+    width:532px;
+    height:342px;
+    position: absolute;
+    z-index:6;
+    bottom:50px;
+    left: 220px;
+
+    font-size: 20px;
+    color: #040404;
+}
+.chengwei{
+    width:120px;
+    height:24px;
+}
+.henrongxing{
+    width:220px;
+    height:24px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.jutineirongbox{
+    width:424px;
+    height:160px;
+    margin:0 auto;
+    margin-top:20px;
+
+}
+.jutineirongbox input{
+    width:90px;
+    height:25px;
+    float: left;
+}
+.jutisbox{
+    width:210px;
+    height:50px;
+    float: left;
+}
+.jutineirongbox span{
+    float: left;
+}
+.jutineirongbox .mar{
+
+}
+.zhifubox{
+    width:424 px;
+    height:52px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.resevationbox .logo3{
+    width:52px;
+    height: 61px;
+    position: absolute;
+    z-index: 7;
+    top:90px;
+    left:800px;
+}
+.zhifubox .now{
+    width:182px;
+    height:52px;
+    background: black;
+    font-size: 20px;
+    text-align: center;
+    line-height: 52px;
+    color: #fff;
+    float: left;
+    font-weight: bold;
+    cursor: pointer;
+}
+.zhifubox .wait{
+    width:182px;
+    height:52px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 52px;
+    color: #636668;
+    float: right;
+    background: #E0E6EA;
+    font-weight: bold;
+    cursor: pointer;
+}
+/*第四部分*/
+.delicacy{
+    width:1600px;
+    margin:0 auto;
+    margin-top: 40px;
+
+}
+.tittle-t{
+    width:1200px;
+    margin:0 auto;
+}
+.deli-picturebox{
+    width:1600;
+    height: 800px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.deli-pbox{
+    width:400px;
+    height:400px;
+    display: inline-block;
+    float: left;
+    transition: all 0.2s;
+}
+.deli-pbox1{
+    width:1600px;
+    height: 400px;
+    display: block;
+    float: left;
+    transition: all 0.2s;
+}
+.deli-pbox:hover{
+    transform:scale(1.01,1.01);
+    transform-origin:center;
+}
+.deli-pbox1:hover{
+    transform:scale(1.01,1.01);
+    transform-origin:center;
+}
+.tittle-t #gengduo{
+    float: right;
+    font-size: 12px;
+    text-decoration: none;
+    color: #737473;
+}
+/*第五部分*/
+.membership{
+    width:1600px;
+    margin:0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+.membershipbox{
+    width:1600px;
+    height: 460px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.memberkuang{
+    width:682px;
+    height:453px;
+    float: right;
+}
+.neirongkuang{
+    width: 934px;
+    height:368px;
+    position: absolute;
+    top:90px;
+    z-index: 2;
+}
+.membershipbox .tutu{
+    width:673px;
+    height: 452px;
+    position: absolute;
+    right: 0;
+    top:50px;
+    z-index: 5;
+}
+.membershipbox .logo2{
+    width:52px;
+    height: 61px;
+    position: absolute;
+    left:400px;
+    top:100px;
+    z-index: 6;
+}
+.membership .wordbox1{
+    width:470px;
+    height:230px;
+    position: absolute;
+    left:200px;
+    z-index: 7;
+    top:210px;
+    font-size: 24px;
+    font-family: "iconfont";
+
+
+}
+.wordbox1 .wordboxright{
+    float: right;
+    width:150px;
+    height:160px;
+
+}
+.wordbox1 .wordboxleft{
+    float: left;
+    width:150px;
+    height:160px;
+
+}
+.mem-neirong:nth-child(n){
+    float: right;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #676262;
+    transition: all 0.4s;
+
+}
+.mem-neirong:nth-child(n){
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #676262;
+    transition: all 0.4s;
+}
+.wordboxright a:hover{
+    color: #000;
+}
+.wordboxleft a:hover{
+    color: #000;
+}
+.mem-anniu input{
+    width:144px;
+    height: 47px;
+    margin: 0 auto;
+    margin-top: 160px;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*第六部分*/
+.contactus{
+    width:1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.contactus .con-box{
+    width: 844px;
+    height:458px;
+    margin:0 auto;
+    margin-top:10px;
+    color: #747472;
+}
+.contactus .con-map{
+    width: 482px;
+    height:456px;
+    float: left;
+}
+.contactus .jianjie{
+    float: right;
+    width:286px;
+    height: 458px;
+}
+.dongshizhangtu{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.con-wen{
+    width:250px;
+    height: 20px;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.con-hengxian{
+    margin: 18px 0;
+    width: 170px;
+    border-top:2px solid #747472;
+}
+.jianjie a{
+    display: block;
+    margin-top: 20px;
+    float: left;
+}
+.jian-qixia{
+    float: right;
+    font-size: 16px;
+    margin-top: 54px;
+}
+/*底部*/
+.footer{
+    width:1600px;
+    height: 206px;
+    margin:0 auto;
+    margin-top: 40px;
+    background: #333;
+    padding-top: 1px;
+    box-shadow: 0 -2px 4px #959899;
+}
+.foo-box{
+    width: 835px;
+    height: 170px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.foo-left{
+    width: 400px;
+    height: 170px;
+    float: left;
+}
+.foo-left a{
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #f5f3f0;
+}
+.foo-left1{
+    width: 95px;
+    float: right;
+}
+.foo-shuxian{
+    float: left;
+    height: 160px;
+    border-left:2px solid #BEC1C2;
+    margin:2px 30px;
+}
+.foo-right{
+    width:300px;
+    float: left;
+    margin-top: 10px;
+
+}
+.foo-box .shengming{
+    margin-bottom:30px;
+    font-size: 20px;
+}
+.foo-right .tubiao{
+    width:72px;
+    height: 17px;
+}

@@ -1,0 +1,179 @@
+.fenyedaohang{
+    width:1600px;
+    height: 32px;
+    margin-top:238px;
+}
+.fenye-mianbaoxie{
+    width:1200px;
+    height: 20px;
+    margin:0 auto;
+    font-size: 14px;
+    color: #605E5E;
+}
+.fenye-mianbaoxie div{
+    display: inline-block;
+}
+.fenye-mianbaoxie a{
+    display: inline-block;
+    font-family: "iconfont";
+    text-decoration: none;
+    color: #605E5E;
+    transition:all 0.4s;
+}
+.fenye-mianbaoxie a:hover{
+    color: #333333;
+}
+.fenye-jianbianxian{
+    width:500px;
+    height: 2px;
+    margin-top: 10px;
+    background:linear-gradient(to right,#5B5C5B 0%,transparent 100%);
+}
+
+/*搜索栏目*/
+.sousuo_5{
+    width:1200px;
+    margin:0 auto;
+    padding-top: 1px;
+    margin-top: 30px;
+}
+.sousuo_5:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sousuo_5 .wenzi{
+    width:484px;
+    height:30px;
+    margin:0 auto;
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444444;
+}
+.sousuo_5 .sousuofang{
+    width:500px;
+    height:200px;
+    margin:0 auto;
+    margin-top: 10px;
+}
+.sousuo_5 .zhuangtu{
+    width:250px;
+    height:200px;
+    float: left;
+}
+.sousuo_5 .tupianhezi{
+    width:120px;
+    height: 114px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.sousuo_5 .tupian{
+    width:120px;
+    height:100px;
+    font-family: "iconfont";
+    font-size: 96px;
+    text-align: center;
+    line-height: 100px;
+    color: #B6B7B7;
+    cursor: pointer;
+    background: none;
+}
+.sousuo_5 .tupian:hover{
+    color: #55606D;
+}
+.tupian:focus{
+    color: #55606D;
+}
+.sousuo_5 .hezi{
+    width:120px;
+    height: 4px;
+    margin-top: 10px;
+}
+.tupianhezi:hover .hezi{
+    background: #55606D;
+}
+.sousuokuang_5{
+    width:798px;
+    height:58px;
+    border:1px solid #55606D;
+    margin:0 auto;
+}
+#chazhao_5{
+    width:740px;
+    height: 58px;
+    font-size: 20px;
+    text-align: center;
+    background: #D9DBDC;
+    float: left;
+}
+#wenhao_5{
+    float: left;
+    width:58px;
+    height:58px;
+    background: #D9DBDC;
+    font-family: "iconfont";
+    font-size: 50px;
+    cursor: pointer;
+}
+.tupianquyu_5{
+    width:1108px;
+    height:200px;
+    margin:0 auto;
+    margin-top: 50px;
+}
+.tupianquyu_5 .tiaohuan1{
+    width:25px;
+    height: 37px;
+    float: left;
+    margin-top:80px;
+    display: block;
+    background:url("../image/5_1b.png");
+}
+.tupianquyu_5 .tiaohuan2{
+    width:25px;
+    height: 37px;
+    float: left;
+    margin-top:80px;
+    display: block;
+    background:url("../image/5_1b.png") -1081px 0;
+}
+.tupianquyu_5 .tupianbox{
+    width:928px;
+    height:200px;
+    margin: 0 65px;
+    float: left;
+    display: flex;
+    justify-content:space-between;
+}
+.tupianquyu_5 .jiudiantu_5{
+    width:300px;
+    height:200px;
+    display: block;
+}
+
+/*第二部分*/
+.newbox_5{
+    width:1092px;
+    height:646px;
+    margin:0 auto;
+    margin-top: 70px;
+}
+.newbox_5 .tittle{
+    width:1092px;
+    height:30px;
+    font-size: 28px;
+    color: #171717;
+    margin-bottom:30px;
+}
+.neirong_5{
+    margin-bottom: 20px;
+}
+.neirong_5 a{
+    text-decoration: none;
+    color: #171717;
+    font-size: 20px;
+}
+.neirong_5 a:hover{
+    text-decoration: underline;
+    color: #000000;
+}

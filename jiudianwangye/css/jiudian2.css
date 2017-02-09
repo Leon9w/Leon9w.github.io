@@ -1,0 +1,187 @@
+/*第一部分*/
+.fenyedaohang{
+    width:1600px;
+    height: 32px;
+    margin-top:238px;
+}
+.fenye-mianbaoxie{
+    width:1200px;
+    height: 20px;
+    margin:0 auto;
+    font-size: 14px;
+    color: #605E5E;
+}
+.fenye-mianbaoxie div{
+    display: inline-block;
+}
+.fenye-mianbaoxie a{
+    display: inline-block;
+    font-family: "iconfont";
+    text-decoration: none;
+    color: #605E5E;
+    transition:all 0.4s;
+}
+.fenye-mianbaoxie a:hover{
+    color: #333333;
+}
+.fenye-jianbianxian{
+    width:500px;
+    height: 2px;
+    margin-top: 10px;
+    background:linear-gradient(to right,#5B5C5B 0%,transparent 100%);
+}
+
+
+/*第二部分*/
+.about-hotelbox_2{
+    width:1200px;
+    margin:0 auto;
+    margin-top: 40px;
+}
+.about-hotelbox_2:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.about-hotelbox_2 .leftbox{
+    width:300px;
+    margin-left:70px;
+    float: left;
+}
+.about-hotelbox_2 a{
+    margin-bottom: 10px;
+    display: block;
+}
+.dongyuanbox_2{
+    display: flex;
+    width:200px;
+    height:30px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.dongyuanbox_2 .dongyuan_2{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin:0 10px;
+    background: #a5a7aa;
+    transition: all 0.4s;
+}
+.dongyuanbox_2 .dongyuan_2:hover{
+    background: #3F3F40;
+}
+.about-hotelbox_2 .rightbox{
+    width:674px;
+    margin-left: 75px;
+    float: left;
+}
+.about-hotelbox_2 .tittle{
+    width: 674px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 30px;
+    color:#333;
+}
+.about-hotelbox_2 .picture{
+    width:674px;
+    height:540px;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.about-hotelbox_2 p{
+    font-size: 20px;
+    color: #302f2f;
+    text-indent:40px;
+}
+.fanyebox_2{
+    width:370px;
+    margin:0 auto;
+    margin-top: 53px;
+    font-size: 18px;
+    color: #666262;
+}
+.fanyebox_2 a{
+    font-family: "iconfont";
+    font-size: 18px;
+    margin:0 4px;
+    display: inline-block;
+    text-decoration: none;
+    color: #666262;
+}
+.fanyebox_2 a:hover{
+    color: #111;
+}
+.fanyebox_2 div{
+    float: left;
+}
+.fanyebox_2 input{
+    width:47px;
+    height: 17px;
+    border:2px solid #666262;
+    float: left;
+    background: #D9DBDC;
+}
+.fanpian_2{
+    width:144px;
+    height:22px;
+    float: right;
+    margin-top: 20px;
+}
+.fanpian_2 a{
+    display: inline-block;
+    font-size: 18px;
+    color: #666262;
+    margin:0 6px;
+    text-decoration: none;
+}
+.fanpian_2 a:hover{
+    color: #111;
+}
+.pinlunbox_2{
+    width:100%;
+    height: 53px;
+    margin-top: 60px;
+}
+.pinlunbox_2 .pin-box{
+    float: left;
+    width:110px;
+    height: 100%;
+    transition:all 0.6s;
+}
+.pinlunbox_2 .pin-box:hover{
+    border-bottom: 3px solid #747070;
+}
+.pinlunbox_2 a{
+    display: block;
+    text-decoration: none;
+    line-height: 53px;
+    text-align: center;
+    font-size: 24px;
+    color: #666262;
+}
+.liuyanbox_2{
+    width:100%;
+    height:66px;
+    font-family: "iconfont";
+    margin-top: 10px;
+}
+.liuyanbox_2 div{
+    font-size: 40px;
+    color: #666262;
+    float: left;
+}
+.liuyanbox_2 input{
+    width:600px;
+    height:30px;
+    margin:1px 4px;
+    padding:4px;
+    border:2px solid #666262;
+    border-radius:5px;
+    background: #eee;
+}
+.fenxiangtu_2{
+    width:299px;
+    height: 28px;
+    float: right;
+}

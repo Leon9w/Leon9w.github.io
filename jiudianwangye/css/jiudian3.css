@@ -1,0 +1,166 @@
+.bannerneirong3{
+    width:1200px;
+    position: absolute;
+    left:200px;
+    top:340px;
+}
+.bannerneirong3 .zhongxintu{
+    width:430px;
+    height:303px;
+}
+/*分页导航*/
+.fenyedaohang3{
+    width:1600px;
+    height: 32px;
+    margin-top:20px;
+}
+.fenye-mianbaoxie3{
+    width:1200px;
+    height: 20px;
+    margin:0 auto;
+    font-size: 14px;
+    color: #605E5E;
+}
+.fenye-mianbaoxie3 div{
+    display: inline-block;
+}
+.fenye-mianbaoxie3 a{
+    display: inline-block;
+    font-family: "iconfont";
+    text-decoration: none;
+    color: #605E5E;
+    transition:all 0.4s;
+}
+.fenye-mianbaoxie3 a:hover{
+    color: #333333;
+}
+.fenye-jianbianxian3{
+    width:500px;
+    height: 2px;
+    margin-top: 10px;
+    background:linear-gradient(to right,#5B5C5B 0%,transparent 100%);
+}
+/*第二部分*/
+.sousuokuangbox_3{
+    width:1600px;
+    height: 70px;
+    margin:0 auto;
+    background: #CFD1D2;
+    margin-top:6px;
+}
+.sou-box_3{
+    width:1200px;
+    height: 70px;
+    margin:0 auto;
+    font-size: 20px;
+    color: #313435;
+}
+.sou-box_3 div{
+    float: left;
+    margin-top:20px;
+}
+.sou-box_3 input{
+    width:130px;
+    height: 26px;
+    margin-right:60px;
+    float: left;
+    margin-top:20px;
+    background: #EEF0F1;
+    padding:0 4px;
+}
+.guanjianzi_3{
+    width:250px;
+    height: 26px;
+    float: left;
+    background: #EEF0F1;
+}
+.guanjianzi_3 input{
+    float: left;
+    width:220px;
+    height: 26px;
+    margin: 0;
+}
+.guanjianzi_3 .fangdajing_3{
+    display: inline-block;
+    margin: 0;
+    float: left;
+    width:22px;
+    height: 26px;
+    font-family: "iconfont";
+    font-size: 20px;
+    text-decoration: none;
+    color: #313435;
+}
+/*内容展示*/
+.jiudianbox_3{
+    width:1200px;
+    height:476px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.tittlebig_3{
+    width: 1200px;
+    height: 60px;
+
+}
+.jiudianbox_3 .tittle{
+    width:280px;
+    height: 60px;
+    margin-left:10px;
+    float: left;
+
+}
+.jiudianbox_3 .headname{
+    height: 30px;
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    color: #131313;
+
+}
+.jiudianbox_3 .headname:hover{
+    text-decoration: underline;
+}
+.jiudianbox_3 .address{
+    height: 20px;
+    font-size: 18px;
+    color: #131313;
+}
+.tittlebig_3 .jiage{
+    float: right;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #000;
+}
+.picturebox_3{
+    width:1200px;
+    height:400px;
+    background: green;
+}
+.picturebox_3 a{
+    display: block;
+}
+.picturebox_3 .left{
+    width:600px;
+    height: 400px;
+    float: left;
+    position: relative;
+}
+.picturebox_3 .right{
+    width:600px;
+    height: 400px;
+    float: left;
+}
+.picturebox_3 .zhanshi{
+    width:300px;
+    height: 200px;
+    float: left;
+}
+.jiazaitishi{
+    width:202px;
+    height:20px;
+    margin:0 auto;
+    font-size: 18px;
+    margin-top:20px;
+    color: #313435;
+}
