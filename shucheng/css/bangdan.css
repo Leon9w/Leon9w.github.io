@@ -1,0 +1,281 @@
+body,ul,ol,dl,h1,h2,h3,h4,h5,h6,p,input{
+    margin: 0px;padding: 0px;list-style: none;
+}
+img{
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "苹方 中等方","微软雅黑","Helvetica Neue LT Rro";
+    font-size: 12px;
+    color: #333;
+    background:#f2f2f2;
+}
+*{
+    box-sizing:border-box;
+}
+html{
+    font-size: 100px;
+}
+/*顶部*/
+.head{
+    width:7.5rem;
+    height:1.4rem;
+    background: #29A6DC;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.tuoyuanbox{
+    width:5.7rem;
+    height:0.84rem;
+    border-radius: 0.42rem;
+    background: #2A3441;
+    margin-top: 0.4rem;
+    padding:0.06rem 0.1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tuoyuanbox .shuxian{
+    width:0.02rem;
+    height:0.6rem;
+    background: #FFFFFF;
+}
+.tuoyuanbox a{
+    text-decoration: none;
+    box-sizing: border-box;
+    border:0.02rem solid #2A3441;
+    width:1.65rem;
+    height:0.7rem;
+    border-radius:0.35rem;
+}
+.tuoyuanbox a:focus{
+    background: #29A6DC;
+    border:0.02rem solid #FFFFFF;
+}
+.tuoyuanbox .wordbox{
+    width:1rem;
+    height:0.6rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+}
+.wordbox .chiese{
+    height:0.3rem;
+    width:100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wordbox .english{
+    width:100%;
+    text-align: center;
+    height: 0.2rem;
+    color: #bddbe8;
+}
+.head-box1{
+    visibility: hidden;
+}
+.searchbox{
+    width:0.39rem;
+    height:0.39rem;
+    display: block;
+    background: #FFFFFF;
+    border:0.01rem solid #FFFFFF;
+    border-radius:50%;
+    box-shadow:0 0 1px 1px #076CBE;
+    margin-top: 0.58rem;
+}
+.searchbox img{
+    display: block;
+    width:0.21rem;
+    height:0.19rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+}
+
+/*第一部分*/
+.list{
+    width:7.5rem;
+    height:2.70rem;
+    margin:0 auto;
+    margin-bottom:0.16rem;
+    background: url("../image/12.png") no-repeat;
+    background-size:7.5rem 2.7rem;
+    padding-top:0.54rem;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+.list1{
+    width:100%;
+    height:2.70rem;
+    position: absolute;
+    left:0;
+    top:0;
+    background: rgba(0,0,0,0.6);
+
+
+}
+.list .left{
+    width: 3.26rem;
+    height: 2.02rem;
+    margin-left: 0.24rem;
+    float: left;
+    position: relative;
+}
+.list .box{
+    width:3.26rem;
+    height:0.34rem;
+    font-size:0.28rem;
+    line-height: 0.32rem;
+    position: relative;
+}
+.list .kuai{
+    width:0.05rem;
+    height:0.05rem;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    left:1.33rem;
+    top:0.14rem;
+}
+.list .box1{
+    width:3.26rem;
+    height:0.16rem;
+    font-size:0.12rem;
+    line-height: 0.16rem;
+}
+.list .box2{
+    width:0.25rem;
+    height:0.26rem;
+    margin:0.07rem auto;
+    background: url("../image/14.png");
+    background-size:0.25rem 0.26rem;
+}
+.list .box3{
+    width:3.26rem;
+    height:0.30rem;
+    font-size:0.18rem;
+    line-height: 0.30rem;
+}
+.list .right{
+    width: 3.76rem;
+    height: 1.76rem;
+    float: left;
+    position: relative;
+}
+.list .right{
+    width: 3.76rem;
+    height: 1.76rem;
+    float: left;
+}
+.list .right1{
+    display: block;
+     width: 3.76rem;
+     height: 0.54rem;
+    line-height: 0.54rem;
+     font-size:0.22rem;
+     color: #fff;
+     padding-left:0.8rem;
+    background: url("../image/13.png") no-repeat 0.44rem 0.15rem;
+    background-size:0.64rem 0.25rem;
+ }
+.list .right2{
+    display: block;
+    width: 3.76rem;
+    height: 0.59rem;
+    line-height: 0.59rem;
+    font-size:0.22rem;
+    color: #fff;
+    padding-left:1rem;
+    background: url("../image/15.png") no-repeat 0.22rem 0.13rem;
+    background-size:0.82rem 0.35rem;
+}
+.list .right3 {
+    display: block;
+    width: 3.76rem;
+    height: 0.44rem;
+    line-height: 0.44rem;
+    font-size: 0.22rem;
+    color: #fff;
+    padding-left: 0.6rem;
+    background: url("../image/16.png") no-repeat 0.5rem 0.11rem;
+    background-size:0.54rem 0.21rem;
+}
+/*底部*/
+.footer{
+    width:7.5rem;
+    height:1rem;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+}
+.caidan{
+    flex-grow: 1;
+    height:100%;
+    display: block;
+    box-sizing: border-box;
+    background: #151C2B;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+}
+.caidan .tubiao{
+    width:100%;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-family:"iconfont";
+}
+.caidan .wenzi{
+    width:100%;
+    height:0.3rem;
+    margin-top: 0.1rem;
+    font-size: 12px;
+}
+.caidan:focus{
+    border-left:0.01rem solid #717171;
+    border-right:0.01rem solid #717171;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.3rem 0.1rem #0B1018 inset;
+}
+
+
+
+
+@media all and (min-width:320px){
+    html{
+        font-size: 42.6px;
+    }
+    .caidan .tubiao{
+        font-size: 18px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width:375px) {
+    html {
+        font-size: 50px;
+    }
+    .caidan .tubiao{
+        font-size: 22px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}
+@media all and (min-width:414px) {
+    html {
+        font-size: 55.2px;
+    }
+    .caidan .tubiao{
+        font-size: 24px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}

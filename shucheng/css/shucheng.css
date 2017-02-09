@@ -1,0 +1,316 @@
+html{
+    font-size: 100px;
+}
+body,ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-family: "苹方 常规";
+    background: #F2F2F2;
+}
+img{
+    margin:0;
+    border:none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 228538 */
+    src: url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.eot');
+    src: url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.svg#iconfont') format('svg');
+}
+/*顶部*/
+.head{
+    width:7.5rem;
+    height:1.4rem;
+    background: #29A6DC;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.tuoyuanbox{
+    width:5.7rem;
+    height:0.84rem;
+    border-radius: 0.42rem;
+    background: #2A3441;
+    margin-top: 0.4rem;
+    padding:0.06rem 0.1rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tuoyuanbox .shuxian{
+    width:0.02rem;
+    height:0.6rem;
+    background: #FFFFFF;
+}
+.tuoyuanbox a{
+    text-decoration: none;
+    box-sizing: border-box;
+    border:0.02rem solid #2A3441;
+    width:1.65rem;
+    height:0.7rem;
+    border-radius:0.35rem;
+}
+.tuoyuanbox a:focus{
+    background: #29A6DC;
+    border:0.02rem solid #FFFFFF;
+}
+.tuoyuanbox .wordbox{
+    width:1rem;
+    height:0.6rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+}
+.wordbox .chiese{
+    height:0.3rem;
+    width:100%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.wordbox .english{
+    width:100%;
+    text-align: center;
+    height: 0.2rem;
+    color: #bddbe8;
+}
+.head-box1{
+    visibility: hidden;
+}
+.searchbox{
+    width:0.39rem;
+    height:0.39rem;
+    display: block;
+    background: #FFFFFF;
+    border:0.01rem solid #FFFFFF;
+    border-radius:50%;
+    box-shadow:0 0 1px 1px #076CBE;
+    margin-top: 0.58rem;
+}
+.searchbox img{
+    display: block;
+    width:0.21rem;
+    height:0.19rem;
+    margin:0 auto;
+    margin-top: 0.1rem;
+}
+/*banner*/
+.banner{
+    width:7.5rem;
+    margin:0 auto;
+}
+.banner img{
+    width:100%;
+    display: block;
+}
+.banner-circle{
+    width:0.5rem;
+    height:0.1rem;
+    margin:0 auto;
+    display: flex;
+    margin-top: 0.1rem;
+    justify-content: space-around;
+}
+.banner-circle div{
+    width:0.09rem;
+    height:0.09rem;
+    border:0.01rem solid #3FABFE;
+    border-radius:50%;
+}
+/*最新阅度*/
+/*标题*/
+.new .tittlebox{
+    width:6.8rem;
+    height:0.59rem;
+    margin:0 auto;
+    margin-top: 0.2rem;
+    margin-bottom: 0.3rem;
+    padding-top: 0.01rem;
+    display: flex;
+}
+.new .picture{
+    width:0.3rem;
+    height:0.29rem;
+    border-radius: 50%;
+    margin-top:0.1rem;
+    padding-top: 0.01rem;
+    background: #FFC63E;
+}
+.pic-box{
+    width:0.17rem;
+    height:0.17rem;
+    margin:0 auto;
+    margin-top:0.05rem;
+}
+.pic-box img{
+    width:100%;
+    display: block;
+}
+.new .word{
+    margin-left: 0.1rem;
+}
+.new .top{
+    height:0.34rem;
+    color: #000000;
+}
+.new .bottom{
+    height:0.2rem;
+}
+/*列表*/
+.rowbox{
+    width:6.5rem;
+    height:3.5rem;
+    margin: 0 auto;
+    margin-bottom:0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.rowlistbox{
+    width:1.79rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.rowlistbox .picturebox{
+    width:100%;
+    height: 2.55rem;
+}
+.rowlistbox img{
+    display: block;
+    height:100%;
+}
+.rowlistbox .wordbox2{
+    flex-grow: 1;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+/*底部*/
+.footer{
+    width:7.5rem;
+    height:1rem;
+    position:fixed;
+    bottom: 0;
+    display: flex;
+}
+.caidan{
+    flex-grow: 1;
+    height:100%;
+    display: block;
+    box-sizing: border-box;
+    background: #151C2B;
+    text-align: center;
+    text-decoration: none;
+    color: #999;
+}
+.caidan .tubiao{
+    width:100%;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-family:"iconfont";
+}
+.caidan .wenzi{
+    width:100%;
+    height:0.3rem;
+    margin-top: 0.1rem;
+    font-size: 12px;
+}
+.caidan:focus{
+    border-left:0.01rem solid #717171;
+    border-right:0.01rem solid #717171;
+    color: #FFFFFF;
+    box-shadow: 0 0 0.3rem 0.1rem #0B1018 inset;
+}
+
+
+
+@media screen and (min-width:319px) {
+    html{
+        font-size:42.66px;
+    }
+    .wordbox .chiese{
+        font-size:10px;
+    }
+    .wordbox .english{
+        font-size:10px;
+    }
+    .new .top{
+        font-size:12px;
+    }
+    .new .bottom{
+        font-size:9px;
+    }
+    .wordbox2 .name{
+        font-size: 12px;
+    }
+    .wordbox2 .people{
+        font-size: 12px;
+    }
+    .caidan .tubiao{
+        font-size: 18px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 374px) {
+    html{
+        font-size: 50px;
+    }
+    .wordbox .chiese{
+        font-size:10px;
+    }
+    .wordbox .english{
+        font-size:10px;
+    }
+    .new .top{
+        font-size:15px;
+    }
+    .new .bottom{
+        font-size:11px;
+    }
+    .wordbox2 .name{
+        font-size: 10px;
+    }
+    .wordbox2 .people{
+        font-size: 10px;
+    }
+    .caidan .tubiao{
+        font-size: 22px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 413px) {
+    html{
+        font-size: 55.2px;
+    }
+    .wordbox .chiese{
+        font-size:12px;
+    }
+    .wordbox .english{
+        font-size:10px;
+    }
+    .new .top{
+        font-size:16px;
+    }
+    .new .bottom{
+        font-size:12px;
+    }
+    .wordbox2 .name{
+        font-size: 12px;
+    }
+    .wordbox2 .people{
+        font-size: 12px;
+    }
+    .caidan .tubiao{
+        font-size: 24px;
+    }
+    .caidan .wenzi{
+        font-size: 12px;
+    }
+}
