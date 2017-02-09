@@ -19,6 +19,14 @@ body{
 html{
     font-size: 100px;
 }
+@font-face {
+    font-family: 'iconfont';  /* project id 228538 */
+    src: url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.eot');
+    src: url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_iu24xqfp6bqehfr.svg#iconfont') format('svg');
+}
 /*顶部*/
 .head{
     width:7.5rem;
