@@ -1,0 +1,415 @@
+body,ul,li{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display:block;
+
+}
+img {
+    border: none;
+}
+/*第一部分*/
+.daohang{
+    width: 100%;
+    height: 44px;
+    background: #020202;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 222806 */
+    src: url('//at.alicdn.com/t/font_qy62bxzh7zr27qfr.eot');
+    src: url('//at.alicdn.com/t/font_qy62bxzh7zr27qfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_qy62bxzh7zr27qfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_qy62bxzh7zr27qfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_qy62bxzh7zr27qfr.svg#iconfont') format('svg');
+}
+.daohang .lianjie1{
+    font-family: "iconfont";
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    line-height: 44px;
+    display:inline-block;
+}
+.daohang .lianjie{
+    color: #fff;
+    text-decoration: none;
+    display:inline-block;
+    font-size: 14px;
+    line-height: 44px;
+}
+.daohangbox a{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    
+}
+.daohangbox a:hover{
+    color: #999;
+}
+.daohangbox{
+    width:1000px;
+    height: 44px;
+    margin:0 auto;
+    text-align: justify;
+    cursor:default;
+}
+.daohangbox:after{
+    content:"";
+    display: inline-block;
+    width:100%;
+}
+.daohang .hidden-bm{
+    display: none;
+}
+@media screen and (max-width:1068px){
+
+    .daohangbox{
+        width:100%;
+
+        padding:0 20px;
+        box-sizing: border-box;
+    }
+    .daohang .hidden-bm{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 735px) {
+    .daohang .hidden{
+        display: none;
+    }
+    .daohang .hidden-bm{
+        display: inline-block;
+    }
+}
+/*第二部分*/
+.banner{
+    width:100%;
+    height:520px;
+    background:#0A0A0A url("./image/ban1.jpg");
+    margin:0 auto;
+    background-position: center bottom;
+    background-size:auto 100%;
+    background-repeat:no-repeat;
+    position: relative;
+}
+.banner .wenzi{
+    width:100%;
+    height:80px;
+    font-size: 28px;
+    color: #fff;
+    position: absolute;
+    top:10%;
+    margin:0 auto;
+    text-align: center;
+}
+.banner .wenzi1{
+    font-weight: bold;
+}
+@media screen and (max-width: 1068px) {
+    .banner .wenzi{
+        font-size: 26px;
+    }
+    .banner{
+        background: rul("./image/ban2.jpg");
+    }
+}
+@media screen and (max-width: 735px) {
+    .banner .wenzi{
+        font-size: 22px;
+    }
+    .banner{
+        background: rul("./image/ban3.jpg");
+    }
+}
+
+/*}第三部分*/
+.box{
+    width:100%;
+    margin:2px auto 0;
+    border-right:1px solid #fff;
+    border-left:1px solid #fff;
+    box-sizing: border-box;
+
+}
+
+.tu{
+    width:25%;
+    height: 200px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.box:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.tu:nth-child(1){
+    background: url("./image/z1.jpg") no-repeat;
+    background-position: center;
+    float: left;
+    border-right:1px solid #fff;
+}
+.tu:nth-child(2){
+    background: url("./image/z2.jpg") no-repeat;
+    background-position: center;
+    float: left;
+    border-right:1px solid #fff;
+}
+.tu:nth-child(3){
+    background: url("./image/z3.jpg") no-repeat;
+    background-position: center;
+    float: left;
+    border-right:1px solid #fff;
+}
+.tu:nth-child(4){
+    background: url("./image/z4.jpg") no-repeat;
+    background-position: center;
+    float: left;
+}
+@media screen and (max-width: 1068px) {
+    .tu {
+        width: 50%;
+        height: 200px;
+    }
+
+    .tu:nth-child(1) {
+        background: url("./image/z1.jpg");
+        background-position: center;
+        float: left;
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .tu:nth-child(2) {
+        background: url("./image/z2.jpg");
+        background-position: center;
+        float: left;
+        border-bottom: 1px solid #fff;
+    }
+
+    .tu:nth-child(3) {
+        background: url("./image/z3.jpg");
+        background-position: center;
+        float: left;
+        border-bottom: 1px solid #fff;
+    }
+
+    .tu:nth-child(4) {
+        background: url("./image/z4.jpg");
+        background-position: center;
+        float: left;
+    }
+}
+    @media screen and (max-width: 735px) {
+        .tu{
+            width:100%;
+            height: 200px;
+        }
+        .tu:nth-child(1){
+            background: url("./image/s1.jpg");
+            background-position: center;
+            float: left;
+            border-bottom:1px solid #fff;
+        }
+        .tu:nth-child(2){
+            background: url("./image/s2.jpg");
+            background-position: center;
+            float: left;
+            border-bottom:1px solid #fff;
+        }
+        .tu:nth-child(3){
+            background: url("./image/s3.jpg");
+            background-position: center;
+            float: left;
+            border-bottom:1px solid #fff;
+        }
+        .tu:nth-child(4){
+            background: url("./image/s4.jpg");
+            background-position: center;
+            float: left;
+            border-bottom:1px solid #fff;
+        }
+
+}
+/*第四部分*/
+.footerbox{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    background:#F2F2F2;
+    margin-top: 2px;
+}
+.footerbox:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.wenzi{
+    margin:0 auto;
+    width:980px;
+    height: 28px;
+    padding-top:20px;
+    font-size: 10px;
+    color: #B4B4B4;
+
+}
+.lianjiebox{
+    width:980px;
+    height:285px;
+    margin:0 auto;
+    border-top: 1px solid #E3E3E3;
+    border-bottom: 1px solid #E3E3E3;
+}
+.lianjiebox-inner{
+    width:20%;
+    height:236px;
+    float: left;
+    padding-top:20px;
+    font-size: 10px;
+
+}
+.hiddeninner a{
+    color: #666666;
+    display: inline-block;
+}
+.hiddeninner a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+.lianjiebox-inner div{
+    margin-bottom: 4px;
+}
+.lianjiebox-inner span{
+    display: none;
+}
+.copyright{
+    width: 980px;
+    height: 60px;
+    margin: 0 auto;
+}
+.copyright:after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.copy{
+    width: 209px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-size: 10px;
+    color: #666;
+}
+.youqing{
+    width: 308px;
+    height: 30px;
+    font-size: 10px;
+    float: left;
+    line-height: 30px;
+    margin-right: 220px;
+}
+.youqing a{
+    float: left;
+    margin:0 7px;
+    text-decoration: none;
+    color:#666;
+}
+.youqing a:hover{
+    text-decoration: underline;
+}
+.youqing div{
+    float: left;
+}
+.beian{
+    width:330px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 10px;
+    color: #666;
+    float: left;
+}
+
+.beian a{
+    text-decoration: none;
+    color: #666;
+    float: left;
+    margin-right: 2px;
+}
+.beian a:hover{
+    text-decoration: underline;
+}
+.gengduo{
+    width:430px;
+    height:20px;
+    float: left;
+    color: #B4B4B4;
+    font-size: 10px;
+    padding-top:10px;
+}
+.gengduo a{
+    display:inline-block;
+    color: #0070C9;
+}
+.gengduo a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1068px) {
+    .footerbox{
+        padding:0 20px;
+        box-sizing: border-box;
+    }
+    .lianjiebox{
+        width:100%;
+
+    }
+    .wenzi{
+
+        width:100%;
+
+    }
+    .copyright{
+        width:100%;
+    }
+
+}
+@media screen and (max-width: 735px) {
+    .lianjiebox-inner{
+        float: none;
+        height: auto;
+        padding:0;
+        width:100%;
+    }
+    .tittle{
+        width:100%;
+        height: 30px;
+        margin-bottom:20px;
+        border-bottom:1px solid #E3E3E3;
+        font-size: 14px;
+    }
+    .tittle span{
+        display: inline-block;
+        float: right;
+        color: #757575;
+    }
+    .hiddeninner{
+        display: none;
+
+    }
+}
+
+
