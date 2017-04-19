@@ -1,0 +1,459 @@
+html{
+    font-size: 100px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:0;
+    border:none;
+    color:#FFFFFF;
+    font-family:"苹方 细体","Helvetica","Microsoft Yahei";
+}
+/*iPhone5*/
+@media all and (min-width:320px){
+    html{
+        font-size:42.66px;
+    }
+    .H_temN{
+        font-size: 46px;
+    }
+    .H_temP{
+        margin-top:0.06rem;
+    }
+    .H_loca,.H_qingk{
+        font-size:18px;
+        padding-right:0.12rem;
+    }
+    .conwen1{
+        font-size: 12px;
+    }
+}
+/*Galaxy S5*/
+@media all and (min-width:360px){
+    html{
+        font-size:48px;
+    }
+    .H_temN{
+        font-size: 50px;
+    }
+    .H_temP{
+        margin-top:0.02rem;
+    }
+    .H_loca,.H_qingk{
+        font-size:20px;
+        padding-right:0.12rem;
+    }
+    .conwen1{
+        font-size: 12px;
+    }
+}
+/*IPhone6*/
+@media all and (min-width:375px){
+    html{
+        font-size:50px;
+    }
+    .H_temN{
+        font-size: 56px;
+    }
+    .H_temP{
+        margin-top:0.03rem;
+    }
+    .H_loca,.H_qingk{
+        font-size:20px;
+        padding-right:0.12rem;
+    }
+    .conwen1{
+        font-size: 12px;
+    }
+}
+/*IPhone6s*/
+@media all and (min-width:414px){
+    html{
+        font-size:55.2px;
+    }
+    .H_temN{
+        font-size: 58px;
+    }
+    .H_temP{
+        margin-top:0.02rem;
+    }
+    .H_loca,.H_qingk{
+        font-size:24px;
+        padding-right:0.12rem;
+    }
+    .conwen1{
+        font-size: 14px;
+    }
+}
+
+
+
+
+body{
+    width:100%;
+    height:13.34rem;
+    background: url(../image/1.jpg)  no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+.backgroundi{
+    width:100%;
+    height:13.34rem;
+    background:  no-repeat;
+    background-attachment:fixed;
+    background-size:auto 100%;
+}
+header{
+    width:3.26rem;
+    height:2.5rem;
+    margin-top:0.9rem;
+    margin-left:3.9rem;
+}
+.H_tem{
+    width:2.26rem;
+    height:0.94rem;
+    margin-left:1rem;
+}
+.H_temN{
+    width:1.3rem;
+    height:0.94rem;
+    float: left;
+    line-height: 0.94rem;
+    text-align: right;
+    color:rgba(255,255,255,0.9);
+    /*background: blue;*/
+}
+.H_temP{
+    width:0.82rem;
+    height:0.82rem;
+    float: left;
+}
+.H_temP1{
+    width:0.8rem;
+    height:0.8rem;
+    display: block;
+    border:none;
+}
+.H_loca{
+    width:2.26rem;
+    height:0.42rem;
+    margin-left:1rem;
+    line-height: 0.42rem;
+    text-align: right;
+    margin-top:0.04rem;
+}
+.H_qingk{
+    height:0.42rem;
+    line-height: 0.42rem;
+    text-align: right;
+    margin-top:0.04rem;
+}
+
+/*第一部分*/
+.part1{
+    width:7.5rem;
+    height:0.6rem;
+    display: flex;
+    margin-top:0.9rem;
+    margin-bottom:0.5rem;
+    justify-content: space-around;
+}
+.content{
+    width:auto;
+    height:0.6rem;
+    display: flex;
+}
+.con_tu{
+    width:0.6rem;
+    height:0.6rem;
+}
+.con_tu>img{
+    width:0.6rem;
+    height:0.6rem;
+    display: block;
+}
+.conwen{
+    width:auto;
+    height:0.6rem;
+}
+.conwen1{
+    width:0.9rem;
+    height:0.3rem;
+    margin:0 auto;
+    text-align: center;
+    line-height: 0.3rem;
+}
+.conshuzhi{
+    font-size: 14px;
+    text-align:center;
+    line-height: 0.3rem;
+}
+.conshuzhi22{
+    font-size: 14px;
+    text-align:center;
+    border-radius:4px;
+    width:auto;
+    margin:0 auto;
+    padding:0 0.1rem;
+    line-height: 0.3rem;
+}
+/*第一部分结束*/
+
+
+
+/*第二部分 开始*/
+.part2{
+    width:100%;
+    height:auto;
+    background:rgba(0,0,0,0.4);
+}
+.part2top{
+    width:100%;
+    height:0.58rem;
+    padding:0 0.44rem;
+}
+.part2top1{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:1px solid rgba(255,255,255,0.9);
+}
+
+.partyubao{
+    text-align: left;
+    line-height: 0.58rem;
+    font-size:0.22rem;
+}
+.part2mon{
+    height:0.36rem;
+    width:auto;
+    padding:0 0.04rem;
+    text-align: center;
+    line-height: 0.36rem;
+    font-size:0.22rem;
+    justify-content: center;
+    border:1px solid #FFFFFF;
+    display: flex;
+}
+.p2xiegang{
+    margin:0 0.04rem;
+}
+.p2change{
+    color: #aaaaaa;
+}
+
+
+
+
+
+
+/*第二部分 中部*/
+.part2middle{
+    height:auto;
+    width:100%;
+    overflow: hidden;
+    padding:0 0.42rem;
+    /*background: orange;*/
+}
+.part2mbigbox{
+    height:1.46rem;
+    width:11.2rem;
+    padding-top:0.2rem;
+    /*background: red;*/
+}
+.p2mtop{
+    display: flex;
+    width:11.2rem;
+    height:0.3rem;
+}
+.p2mtopits1{
+    width:1.6rem;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+}
+.p2mtopits{
+    width:1.6rem;
+    height:0.3rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.14rem;
+}
+.p2mtubiao{
+    width:11.2rem;
+    height:0.6rem;
+    display: flex;
+    margin-top:0.2rem;
+    /*background: green;*/
+}
+.p2mtu{
+    width:1.6rem;
+    height:0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: orange;*/
+}
+.p2mtu>.imgs{
+    width:0.6rem;
+    height:0.6rem;
+    background: no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+
+
+
+
+/*第二部分底部*/
+.part2bottom{
+    width:100%;
+    height:0.58rem;
+    /*background: yellow;*/
+    padding:0 0.44rem;
+}
+.part2bottom1{
+    width:100%;
+    height:auto;
+    border-top:1px solid rgba(255,255,255,0.9);
+}
+.part2btn{
+    width:0.77rem;
+    height:0.33rem;
+    margin:0 auto;
+    margin-top:0.1rem;
+    /*background: red;*/
+}
+/*第二部分 结束*/
+
+
+
+
+/*第三部分 开始*/
+.part3{
+    width:100%;
+    height:0.8rem;
+    background: rgba(0,0,0,0.4);
+    margin-top:0.7rem;
+    padding:0 0.44rem;
+    text-align:left;
+    line-height: 0.4rem;
+    font-size:0.24rem;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+}
+
+/*第三部分 结束*/
+
+
+/*第四部分 开始*/
+.part4{
+    height:1.8rem;
+    border-left:1px solid #CCCCCC;
+    border-top:1px solid #CCCCCC;
+    display: flex;
+    margin-top:0.4rem;
+    position: relative;
+}
+.p4items{
+    width:1.56rem;
+    height:100%;
+    border-bottom:1px solid #CCCCCC;
+    border-right:1px solid #CCCCCC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,0.3);
+    justify-content: center;
+}
+.p4itemsnew{
+    background: rgba(0,0,0,0.7);
+    border-bottom:none;
+}
+.p4content{
+    width:1.4rem;
+    height:0.22rem;
+    margin-top:0.12rem;
+    text-align: center;
+    line-height: 0.22rem;
+    font-size: 0.18rem;
+    color: #FFFFFF;
+}
+.p4name{
+    width:1rem;
+    height:0.22rem;
+    margin-top:0.12rem;
+    text-align: center;
+    line-height: 0.22rem;
+    font-size: 0.18rem;
+    color: #ccc;
+}
+.p4pic{
+    width:1rem;
+    height:0.6rem;
+    background: url("../image/qiche.png") no-repeat;
+    background-position:center center;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+.p4pic1{
+    width:1rem;
+    height:0.6rem;
+    background: url("../image/fangsai.png") no-repeat;
+    background-position:center center;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+.p4pic2{
+    width:1rem;
+    height:0.6rem;
+    background: url("../image/yifu.png") no-repeat;
+    background-position:center center;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+.p4pic3{
+    width:1rem;
+    height:0.6rem;
+    background: url("../image/ganmao.png") no-repeat;
+    background-position:center center;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+.p4pic4{
+    width:1rem;
+    height:0.6rem;
+    background: url("../image/yundong.png") no-repeat;
+    background-position:center center;
+    -webkit-background-size:contain;
+    background-size:contain;
+}
+.p4l{
+    width:100%;
+    height:0;
+    background:rgba(0,0,0,0.7);
+    line-height: 40px;
+    color: #FFFFFF;
+    padding:0 15px;
+    position: absolute;
+    top:1.78rem;
+    font-size: 0.18rem;
+    overflow: hidden;
+    /*border-bottom:1px solid #CCCCCC;*/
+}
+
+
+
+
+
+
+/*第四部分 结束*/
