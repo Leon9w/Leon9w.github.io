@@ -2,13 +2,15 @@ $(document).ready(function(){
 
 
       //换背景图
+      var screnhei=document.documentElement.clientHeight;
+      $(".backgroundi").get(0).style.height=screnhei+"px"
       huantu();
       function huantu() {
          var num, num1;
          do {
             num = Math.floor(Math.random() * 9);
          } while (num == 9)
-         $("body").get(0).style.backgroundImage = "url(./image/" + num + ".jpg)"
+         $(".backgroundi").get(0).style.backgroundImage = "url(./image/" + num + ".jpg)"
       }
 
 
@@ -288,10 +290,6 @@ $(document).ready(function(){
 
          ava.strokeStyle = "#FFF"
          ava.lineWidth = 1;
-         // ava.beginPath();
-         // ava.moveTo(0,0);
-         // ava.lineTo(awidth,0)
-         // ava.stroke();
          ava.beginPath();
          ava.moveTo(usewidth / 2, -y0 * npx);
          ava.lineTo(usewidth + usewidth / 2, -y1 * npx);
@@ -303,42 +301,43 @@ $(document).ready(function(){
          ava.stroke();
 
          ava.textAlign = "center"
+         ava.font="20px"
          ava.fillStyle = "#FFF"
          ava.textBaseline = "top"
 
          ava.beginPath();
-         ava.fillText(y0, usewidth / 2, -y0 * npx)
+         ava.fillText(y0, usewidth / 2, -y0 * npx+npx)
          ava.arc(usewidth / 2, -y0 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y1, usewidth + usewidth / 2, -y1 * npx)
+         ava.fillText(y1, usewidth + usewidth / 2, -y1 * npx+npx)
          ava.arc(usewidth + usewidth / 2, -y1 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y2, 2 * usewidth + usewidth / 2, -y2 * npx)
+         ava.fillText(y2, 2 * usewidth + usewidth / 2, -y2 * npx+npx)
          ava.arc(2 * usewidth + usewidth / 2, -y2 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y3, 3 * usewidth + usewidth / 2, -y3 * npx)
+         ava.fillText(y3, 3 * usewidth + usewidth / 2, -y3 * npx+npx)
          ava.arc(3 * usewidth + usewidth / 2, -y3 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y4, 4 * usewidth + usewidth / 2, -y4 * npx)
+         ava.fillText(y4, 4 * usewidth + usewidth / 2, -y4 * npx+npx)
          ava.arc(4 * usewidth + usewidth / 2, -y4 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y5, 5 * usewidth + usewidth / 2, -y5 * npx)
+         ava.fillText(y5, 5 * usewidth + usewidth / 2, -y5 * npx+npx)
          ava.arc(5 * usewidth + usewidth / 2, -y5 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(y6, 6 * usewidth + usewidth / 2, -y6 * npx)
-         ava.arc(6 * usewidth + usewidth / 2, -y5 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
+         ava.fillText(y6, 6 * usewidth + usewidth / 2, -y6 * npx+npx)
+         ava.arc(6 * usewidth + usewidth / 2, -y6 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
 
@@ -366,37 +365,37 @@ $(document).ready(function(){
          ava.textBaseline = "bottom"
 
          ava.beginPath();
-         ava.fillText(yy0, usewidth / 2, -yy0 * npx)
+         ava.fillText(yy0, usewidth / 2, -yy0 * npx-npx)
          ava.arc(usewidth / 2, -yy0 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy1, usewidth + usewidth / 2, -yy1 * npx)
+         ava.fillText(yy1, usewidth + usewidth / 2, -yy1 * npx-npx)
          ava.arc(usewidth + usewidth / 2, -yy1 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy2, 2 * usewidth + usewidth / 2, -yy2 * npx)
+         ava.fillText(yy2, 2 * usewidth + usewidth / 2, -yy2 * npx-npx)
          ava.arc(2 * usewidth + usewidth / 2, -yy2 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy3, 3 * usewidth + usewidth / 2, -yy3 * npx)
+         ava.fillText(yy3, 3 * usewidth + usewidth / 2, -yy3 * npx-npx)
          ava.arc(3 * usewidth + usewidth / 2, -yy3 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy4, 4 * usewidth + usewidth / 2, -yy4 * npx)
+         ava.fillText(yy4, 4 * usewidth + usewidth / 2, -yy4 * npx-npx)
          ava.arc(4 * usewidth + usewidth / 2, -yy4 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy5, 5 * usewidth + usewidth / 2, -yy5 * npx)
+         ava.fillText(yy5, 5 * usewidth + usewidth / 2, -yy5 * npx-npx)
          ava.arc(5 * usewidth + usewidth / 2, -yy5 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 
          ava.beginPath();
-         ava.fillText(yy6, 6 * usewidth + usewidth / 2, -yy6 * npx)
+         ava.fillText(yy6, 6 * usewidth + usewidth / 2, -yy6 * npx-npx)
          ava.arc(6 * usewidth + usewidth / 2, -yy6 * npx, npx, 0 * Math.PI / 180, 360 * Math.PI / 180)
          ava.fill()
 

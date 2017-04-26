@@ -94,16 +94,17 @@ body{
 body{
     width:100%;
     height:auto;
+}
+.backgroundi{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:auto;
+    z-index:-1;
     background: url(../image/1.jpg)  no-repeat;
     background-attachment:fixed;
     background-size:cover;
-}
-.backgroundi{
-    width:100%;
-    height:auto;
-    background:  no-repeat;
-    background-attachment:fixed;
-    background-size:auto 100%;
 }
 header{
     width:3.26rem;
@@ -273,14 +274,14 @@ header{
     height:0.3rem;
     text-align: center;
     line-height: 0.3rem;
-    font-size: 0.14rem;
+    font-size: 0.22rem;
 }
 .p2mtopits{
     width:1.6rem;
     height:0.3rem;
     text-align: center;
     line-height: 0.3rem;
-    font-size: 0.14rem;
+    font-size: 0.22rem;
 }
 .p2mtubiao{
     width:11.2rem;
@@ -428,7 +429,7 @@ header{
     margin-top:0.12rem;
     text-align: center;
     line-height: 0.22rem;
-    font-size: 0.18rem;
+    font-size: 0.22rem;
     color: #FFFFFF;
 }
 .p4name{
@@ -437,7 +438,7 @@ header{
     margin-top:0.12rem;
     text-align: center;
     line-height: 0.22rem;
-    font-size: 0.18rem;
+    font-size: 0.22rem;
     color: #ccc;
 }
 .p4pic{
@@ -489,9 +490,8 @@ header{
     padding:0 15px;
     position: absolute;
     top:1.78rem;
-    font-size: 0.18rem;
+    font-size: 0.22rem;
     overflow: hidden;
-    /*border-bottom:1px solid #CCCCCC;*/
 }
 
 
