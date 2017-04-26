@@ -20,7 +20,6 @@ $(document).ready(function(){
       var date1 = nowtime.getDate();
       var year1 = nowtime.getFullYear();
       var mouth = nowtime.getUTCMonth() + 1;
-      console.log(hours)
       switch (mouth) {
          case 1:
       }
@@ -33,7 +32,7 @@ $(document).ready(function(){
       $.ajax({
          type: 'get',
          async: false,
-         url: 'http://api.k780.com:88/?app=weather.future&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data',
+         url: 'https://sapi.k780.com/?app=weather.future&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data',
          dataType: 'jsonp',
          jsonp: 'callback',
          jsonpCallback: 'data',
@@ -62,7 +61,7 @@ $(document).ready(function(){
       $.ajax({
          type: 'get',
          async: false,
-         url: 'http://api.k780.com:88/?app=weather.pm25&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data2',
+         url: 'https://sapi.k780.com/?app=weather.pm25&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data2',
          dataType: 'jsonp',
          jsonp: 'callback',
          jsonpCallback: 'data2',
@@ -90,7 +89,7 @@ $(document).ready(function(){
       $.ajax({
          type: 'get',
          async: false,
-         url: 'http://api.k780.com:88/?app=weather.today&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data3',
+         url: 'https://sapi.k780.com/?app=weather.today&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data3',
          dataType: 'jsonp',
          jsonp: 'callback',
          jsonpCallback: 'data3',
@@ -118,7 +117,7 @@ $(document).ready(function(){
       $.ajax({
          type: 'get',
          async: false,
-         url: 'http://api.k780.com:88/?app=weather.lifeindex&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data4',
+         url: 'https://sapi.k780.com/?app=weather.lifeindex&weaid=xian&appkey=24662&sign=34d9d6abe71b980fdfc6540d35f11811&format=json&jsoncallback=data4',
          dataType: 'jsonp',
          jsonp: 'callback',
          jsonpCallback: 'data4',
@@ -349,7 +348,6 @@ $(document).ready(function(){
          // ava.lineTo(awidth,0)
          // ava.stroke();
          ava.beginPath();
-         console.log(-yy0 * npx)
          ava.moveTo(usewidth / 2, -yy0 * npx);
          ava.lineTo(usewidth + usewidth / 2, -yy1 * npx);
          ava.lineTo(2 * usewidth + usewidth / 2, -yy2 * npx);
