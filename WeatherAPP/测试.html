@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin:0;
+        padding:0;
+    }
+    .canvas1{
+        background:orange;
+    }
+    .canvas2{
+        background:orange;
+    }
+    /*div{*/
+        /*width:200px;*/
+        /*height:300px;*/
+        /*background: red;*/
+    /*}*/
+</style>
+<body>
+    <!--<div>-->
+        <canvas class=canvas1></canvas>
+        <canvas class=canvas2></canvas>
+    <!--</div>-->
+
+</body>
+<script>
+    var canvas1=document.querySelector(".canvas1")
+    var canvas2=document.querySelector(".canvas2")
+    var  avk = document.documentElement.clientWidth;
+    var awidth=avk/750*1120
+    var bheight=avk/750*300
+    canvas1.setAttribute('width',awidth+'px');
+    canvas2.setAttribute('width',awidth+'px');
+    canvas1.setAttribute('height',bheight+'px');
+    canvas2.setAttribute('height',bheight+'px');
+
+//    var y1=50,y2=30,y3=100,y4=130,y5=70;
+//    var ava=canvas.getContext("2d")
+//ava.translate(0,avk/750*200)
+//    ava.strokeStyle="#FFF"
+//    ava.lineWidth=2;
+//    ava.beginPath();
+//    ava.moveTo(0,50);
+//    ava.lineTo(50,30);
+//    ava.lineTo(100,100);
+//    ava.lineTo(150,130);
+//    ava.lineTo(200,70);
+//    ava.lineTo(250,200);
+//    ava.lineTo(300,170);
+//    ava.stroke();
+</script>
+</html>
+
+
+
