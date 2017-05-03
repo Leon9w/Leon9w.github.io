@@ -402,7 +402,6 @@ header{
 /*第四部分 开始*/
 .part4{
     height:2.8rem;
-    border-left:1px solid #CCCCCC;
     border-top:1px solid #CCCCCC;
     display: flex;
     margin-top:0.4rem;
@@ -418,6 +417,9 @@ header{
     align-items: center;
     background: rgba(0,0,0,0.3);
     justify-content: center;
+}
+.part4>.p4items:nth-child(5){
+    border-right:none;
 }
 .p4itemsnew{
     background: rgba(0,0,0,0.7);
