@@ -401,7 +401,7 @@ header{
 
 /*第四部分 开始*/
 .part4{
-    height:1.8rem;
+    height:2.8rem;
     border-left:1px solid #CCCCCC;
     border-top:1px solid #CCCCCC;
     display: flex;
@@ -410,7 +410,7 @@ header{
 }
 .p4items{
     width:1.56rem;
-    height:100%;
+    height:1.8rem;
     border-bottom:1px solid #CCCCCC;
     border-right:1px solid #CCCCCC;
     display: flex;

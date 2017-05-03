@@ -26,8 +26,11 @@ $(document).ready(function(){
       if (mouth < 10) {
          mouth = "0" + mouth;
       }
-      var nowtime = year1 + "-" + mouth + "-" + date1;
-
+      if(date1<10){
+         date1="0"+date1;
+      }
+      var nowtimenow = year1 + "-" + mouth + "-" + date1;
+console.log(nowtimenow)
       //ajax 请求部分
       $.ajax({
          type: 'get',
@@ -444,19 +447,19 @@ $(document).ready(function(){
 
          //第四部分生活指数 开始
          $(".p4content:eq(0)").text(function () {
-            return mydata4[nowtime].lifeindex_xc_attr;
+            return mydata4[nowtimenow].lifeindex_xc_attr;
          })
          $(".p4content:eq(1)").text(function () {
-            return mydata4[nowtime].lifeindex_uv_attr;
+            return mydata4[nowtimenow].lifeindex_uv_attr;
          })
          $(".p4content:eq(2)").text(function () {
-            return mydata4[nowtime].lifeindex_ct_attr;
+            return mydata4[nowtimenow].lifeindex_ct_attr;
          })
          $(".p4content:eq(3)").text(function () {
-            return mydata4[nowtime].lifeindex_gm_attr;
+            return mydata4[nowtimenow].lifeindex_gm_attr;
          })
          $(".p4content:eq(4)").text(function () {
-            return mydata4[nowtime].lifeindex_yd_attr;
+            return mydata4[nowtimenow].lifeindex_yd_attr;
          })
 
          // 建议
@@ -497,23 +500,23 @@ $(document).ready(function(){
          })
 
          $(".p4l").eq(0).text(function () {
-            return mydata4[nowtime].lifeindex_xc_dese;
+            return mydata4[nowtimenow].lifeindex_xc_dese;
          })
 
          $(".p4l").eq(1).text(function () {
-            return mydata4[nowtime].lifeindex_uv_dese;
+            return mydata4[nowtimenow].lifeindex_uv_dese;
          })
 
          $(".p4l").eq(2).text(function () {
-            return mydata4[nowtime].lifeindex_ct_dese;
+            return mydata4[nowtimenow].lifeindex_ct_dese;
          })
 
          $(".p4l").eq(3).text(function () {
-            return mydata4[nowtime].lifeindex_gm_dese;
+            return mydata4[nowtimenow].lifeindex_gm_dese;
          })
 
          $(".p4l").eq(4).text(function () {
-            return mydata4[nowtime].lifeindex_yd_dese;
+            return mydata4[nowtimenow].lifeindex_yd_dese;
          })
          //第四部分生活指数 结束
 
