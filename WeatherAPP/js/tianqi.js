@@ -6,10 +6,10 @@ $(document).ready(function(){
       $(".backgroundi").get(0).style.height=screnhei+"px"
       huantu();
       function huantu() {
-         var num, num1;
+         var num;
          do {
-            num = Math.floor(Math.random() * 9);
-         } while (num == 9)
+            num = Math.floor(Math.random() * 8);
+         } while (num == 8)
          $(".backgroundi").get(0).style.backgroundImage = "url(./image/" + num + ".jpg)"
       }
 
